@@ -164,12 +164,8 @@ public class Silly implements Comparable<Silly>{
 
         // Hint: to compare strings, we need to use .equals()
         //       e.g. s1.equals(s2)
-        if (o.equals(this.name)){
-            return true;}
-        else {
-            return false;
-        }
-
+        return other.name.equals(this.name);
+    }
 
     /**
      * 5. If we want to compare two objects, we have to do two things:
@@ -216,14 +212,14 @@ public class Silly implements Comparable<Silly>{
         }
 
 
-    /*
-     * TODO (Task 6): Submit the changes you made on GitHub!
-     *                When you submit it, go to the 'Actions' tab. You should
-     *                be able to see this exercise being autograded!
-     *
-     *                You can click on the ongoing action to see more details.
-     *                If the tests don't pass, look at the results and revise
-     *                accordingly.
-     */
-}}}
+        /*
+         * TODO (Task 6): Submit the changes you made on GitHub!
+         *                When you submit it, go to the 'Actions' tab. You should
+         *                be able to see this exercise being autograded!
+         *
+         *                You can click on the ongoing action to see more details.
+         *                If the tests don't pass, look at the results and revise
+         *                accordingly.
+         */
+    }}
 
